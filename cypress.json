@@ -1,7 +1,8 @@
 {
-  "testFiles": "**/*.{feature,features}",
+  "testFiles": "**/*.{feature,features}"
+,
   "env": {
-    "url": "http://shop.demoqa.com/my-account/"
-  },
-  "projectId": "ewmtug"
+    "loginurl": "https://admin.typeform.com/login",
+    "signupurl":"https://admin.typeform.com/signup"
+  }
 }

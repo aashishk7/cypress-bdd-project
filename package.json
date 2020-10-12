@@ -9,10 +9,13 @@
   "author": "AashishKhetarpal",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.6.0",
-    "cypress-cucumber-preprocessor": "^1.17.0"
+    "cypress": "^3.8.3",
+    "cypress-cucumber-preprocessor": "^1.19.2"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "run": "^1.4.0"
   }
 }
